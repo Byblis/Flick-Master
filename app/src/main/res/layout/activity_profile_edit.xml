@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+<!-- プロフィール画像 -->
+<ImageView
+    android:id="@+id/profileImage"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/ic_launcher_foreground"
+    android:layout_gravity="center"
+    android:contentDescription="プロフィール画像" />
+
+<!-- 名前入力欄 -->
+<EditText
+    android:id="@+id/editName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="名前を入力"
+    android:layout_marginTop="16dp" />
+
+<!-- 保存ボタン -->
+<Button
+    android:id="@+id/saveButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="保存"
+    android:layout_marginTop="16dp" />
+
+<!-- 保存した名前を表示するテキスト -->
+<TextView
+    android:id="@+id/displayName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="名前がここに表示される"
+    android:gravity="center"
+    android:layout_marginTop="16dp" />
+</LinearLayout>
