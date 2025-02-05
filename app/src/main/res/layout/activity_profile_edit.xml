@@ -4,6 +4,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
+        android:id="@+id/main"
 
 
 <!-- プロフィール画像 -->
@@ -32,11 +33,13 @@
     android:layout_marginTop="16dp" />
 
 <!-- 保存した名前を表示するテキスト -->
-<TextView
-    android:id="@+id/displayName"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="名前がここに表示される"
-    android:gravity="center"
-    android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="名前がここに表示される" />
+
+
 </LinearLayout>
